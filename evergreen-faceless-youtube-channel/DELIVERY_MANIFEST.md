@@ -29,6 +29,7 @@
 | D-19 | Commercial offer and outreach toolkit | `08_REVENUE_OPERATION/02_COMMERCIAL_ASSETS/` | Complete | Defines the authority-film offer, discovery process, pre-approved draft copy, and revenue deck content. |
 | D-20 | Revenue presentation | `08_REVENUE_OPERATION/02_COMMERCIAL_ASSETS/presentation/` | Complete | Ten-slide HTML presentation of the brand, launch assets, revenue logic, and commercial model. |
 | D-21 | Affiliate/sponsorship pipeline and disclosures | `08_REVENUE_OPERATION/03_PIPELINE/` and `08_REVENUE_OPERATION/04_COMPLIANCE/` | Complete | Contains verified program research, sponsor gates, an initial target queue, and disclosure scripts. |
+| D-22 | Priority account dossiers and outreach drafts | `08_REVENUE_OPERATION/03_PIPELINE/01_PRIORITY_DOSSIERS/` | Complete | Research-backed dossiers, personalized pre-send drafts, and the first-wave authorization register for Pirros, BuildOps, and Epsilon3. |
 
 ## Validation Record
 
@@ -43,6 +44,8 @@
 | Visual asset files are present and documented | Pass | Avatar, banner background, and three thumbnail bases are present in their labeled directories. |
 | Revenue documents include cited compliance and platform sources | Pass | YouTube, FTC, and official program pages are cited at point of use. |
 | Revenue presentation created | Pass | Ten-slide presentation completed and available through the presentation delivery link. |
+| Priority-account dossiers cite current primary sources | Pass | Company-owned product, news, and customer materials support each first-wave story hypothesis. |
+| External messages sent without final authorization | Pass | None sent; personalized drafts remain explicitly pre-send. |
 | Git commit and remote push | Pending | Performed after final repository validation. |
 
 ## Explicitly Pending External Steps
