@@ -23,6 +23,8 @@
 | D-13 | Contractor trial brief | `05_TEMPLATES/CONTRACTOR_TRIAL_BRIEF.md` | Complete | Controls first outsourced edit/visual-research trial. |
 | D-14 | 90-day operating plan | `06_ANALYTICS/90_DAY_OPERATING_PLAN.md` | Complete | Defines cadence, metrics, experiments, and postmortem questions. |
 | D-15 | Brand direction | `07_BRAND_ASSETS/BRAND_DIRECTION.md` | Complete | Defines identity, palette, type direction, thumbnail system, and asset requirements. |
+| D-16 | Generated visual launch assets | `07_BRAND_ASSETS/final/` and `07_BRAND_ASSETS/thumbnail_bases/` | Complete | Includes original avatar, text-safe banner background, and three pilot thumbnail bases. |
+| D-17 | Launch-asset guide and trailer script | `07_BRAND_ASSETS/LAUNCH_ASSET_GUIDE.md` and `07_BRAND_ASSETS/CHANNEL_TRAILER_SCRIPT.md` | Complete | Governs final overlays and supplies a recording-ready channel trailer. |
 
 ## Validation Record
 
@@ -34,6 +36,7 @@
 | First three pilot packages include script, visual plan, package, and references | Pass | Each has claim notes and a source-linked reference section. |
 | Public, financial, credentialed, or contractual steps executed without account-owner approval | Pass | None executed; boundaries documented. |
 | Sensitive credentials committed | Pass | None intentionally stored. |
+| Visual asset files are present and documented | Pass | Avatar, banner background, and three thumbnail bases are present in their labeled directories. |
 | Git commit and remote push | Pending | Performed after final repository validation. |
 
 ## Explicitly Pending External Steps

@@ -33,7 +33,7 @@ This package translates the supplied blueprint into an operating system that can
 | `04_PILOTS/` | Three launch-ready episode packets. | Producing the pre-launch buffer. |
 | `05_TEMPLATES/` | Copy-ready documents, checklists, and logs. | Starting any new episode. |
 | `06_ANALYTICS/` | 90-day calendar, metric definitions, and retrospective process. | Planning cadence and improving after publication. |
-| `07_BRAND_ASSETS/` | Brand direction, thumbnail system, and text-only source files. | Producing the channel’s visual identity. |
+| `07_BRAND_ASSETS/` | Brand direction, generated avatar/banner/thumbnail bases, launch-asset guide, and trailer script. | Producing the channel’s visual identity or trailer. |
 
 ## Autonomy Boundary
 
@@ -74,7 +74,8 @@ All factual assertions used in pilots must be traceable to the relevant dossier 
 | Operating system documented | Complete | SOPs, templates, quality gates, and ownership boundaries are included. |
 | First launch slate prepared | Complete | 40 scored topics and three prioritized pilot packets are included. |
 | External account and publishing actions | Pending human account owner | Explicitly labeled; no attempts made to create, buy, or publish. |
-| Version control | Pending final validation | This package will be committed and pushed after repository checks. |
+| Visual launch assets | Complete | Original avatar, banner background, and three thumbnail bases are generated; text overlays remain subject to final editorial review. |
+| Version control | Pending final validation | This expanded package will be committed and pushed after repository checks. |
 
 ---
 
