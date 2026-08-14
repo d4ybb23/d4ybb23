@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+            padding: 80px;
+        }
+        .title-column {
+            flex: 0 0 35%;
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content-column {
+            flex: 0 0 65%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 60px;
+            justify-content: center;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+        }
+        .gate-container {
+            border-left: 6px solid #F4B942; /* Ledger Gold */
+            padding-left: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .rule-item {
+            position: relative;
+        }
+        .rule-item::before {
+            content: '';
+            position: absolute;
+            left: -38px; /* 32px padding + 6px border */
+            top: 12px;
+            width: 20px;
+            height: 4px;
+            background-color: #F4B942;
+        }
+        .rule-title {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #050505;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .rule-desc {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="title-column">
+            <h1>Trust Is the Moat</h1>
+            <h2>The money only works if the viewer believes the work</h2>
+        </div>
+        <div class="content-column">
+            <div class="gate-container">
+                <div class="rule-item">
+                    <div class="rule-title">No paid editorial conclusion</div>
+                    <div class="rule-desc">Sponsors cannot buy the thesis or hide a material counterargument.</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-title">No fake ad-bumper</div>
+                    <div class="rule-desc">Third-party promotions cannot mimic YouTube ad formats where comparable formats are available. [3]</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-title">Clear sponsorship / affiliate disclosures</div>
+                    <div class="rule-desc">Paid or material relationships should be hard to miss; FTC guidance recommends in-video and description disclosure for video endorsements. [4]</div>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-title">Source, asset, and approval records</div>
+                    <div class="rule-desc">Protects factual integrity, rights, and monetization review.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

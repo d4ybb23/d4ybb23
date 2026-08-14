@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+            padding: 80px;
+            position: relative;
+        }
+        .title-column {
+            flex: 0 0 35%;
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content-column {
+            flex: 0 0 65%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 60px;
+            justify-content: center;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        .amount-card {
+            background-color: #050505;
+            padding: 40px 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 200px;
+        }
+        .target-card {
+            border-bottom: 8px solid #F4B942;
+        }
+        .card-scenario {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #F7F3E8;
+            line-height: 1.4;
+            margin-bottom: 16px;
+        }
+        .card-arithmetic {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #888888;
+            margin-bottom: 8px;
+        }
+        .card-value {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 48px;
+            color: #F7F3E8;
+        }
+        .footnote {
+            position: absolute;
+            bottom: 40px;
+            left: 80px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #888888;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="title-column">
+            <h1>Early Revenue Is a Sales Problem, Not a Dashboard Problem</h1>
+            <h2>A small number of qualified deals funds the first production cycle.</h2>
+        </div>
+        <div class="content-column">
+            <div class="cards-grid">
+                <div class="amount-card">
+                    <div class="card-scenario">Three diagnostics</div>
+                    <div>
+                        <div class="card-arithmetic">3 × $3,500</div>
+                        <div class="card-value">$10,500</div>
+                    </div>
+                </div>
+                <div class="amount-card target-card">
+                    <div class="card-scenario">One Authority Film Sprint + one diagnostic</div>
+                    <div>
+                        <div class="card-arithmetic">$12,500 + $3,500</div>
+                        <div class="card-value">$16,000</div>
+                    </div>
+                </div>
+                <div class="amount-card">
+                    <div class="card-scenario">Two Authority Film Sprints</div>
+                    <div>
+                        <div class="card-arithmetic">2 × $12,500</div>
+                        <div class="card-value">$25,000</div>
+                    </div>
+                </div>
+                <div class="amount-card">
+                    <div class="card-scenario">One Authority System + one diagnostic</div>
+                    <div>
+                        <div class="card-arithmetic">$25,000 + $3,500</div>
+                        <div class="card-value">$28,500</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footnote">
+            * Planning arithmetic only. It is not a forecast, pipeline claim, or performance guarantee.
+        </div>
+    </div>
+</body>
+</html>

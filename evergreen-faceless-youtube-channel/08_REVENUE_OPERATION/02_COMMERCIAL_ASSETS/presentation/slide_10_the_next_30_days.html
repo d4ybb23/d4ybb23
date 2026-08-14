@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+        }
+        .left-col {
+            flex: 0 0 40%;
+            padding: 80px 40px 60px 80px; /* reduced bottom padding */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .text-wrapper {
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+            margin-bottom: 40px;
+        }
+        .closing-statement {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: #333333;
+            line-height: 1.6;
+            border-top: 2px solid #050505;
+            padding-top: 24px;
+        }
+        .right-col {
+            flex: 0 0 60%;
+            display: flex;
+            flex-direction: column;
+        }
+        .table-section {
+            flex: 1;
+            padding: 60px 80px 40px 40px; /* reduced top padding by 20px */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: 60px 1fr 1fr;
+            gap: 12px 24px;
+        }
+        .grid-header {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #050505;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+        .week-num {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #008080;
+            padding-top: 4px;
+        }
+        .action-text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: #333333;
+            line-height: 1.5;
+            padding-top: 8px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 12px;
+        }
+        .image-section {
+            height: 260px;
+            background-color: #050505;
+            position: relative;
+            overflow: hidden; /* prevent the image from escaping */
+            flex: 0 0 260px;
+        }
+        img {
+            width: 100%;
+            height: auto; /* avoid forcing 100% height which caused overflow */
+            max-height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+        .overlay-labels {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            background: rgba(13, 27, 42, 0.7);
+        }
+        .label-item {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #F7F3E8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .label-arrow {
+            color: #F4B942;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-col">
+            <div class="text-wrapper">
+                <h1>The Next 30 Days</h1>
+                <h2>Build the asset. Open the conversations. Earn the right to compound.</h2>
+            </div>
+            <div class="text-wrapper">
+                <div class="closing-statement">
+                    <strong>The Profit Map</strong> becomes valuable by doing two things exceptionally well: making complex business systems understandable and refusing to sell that understanding cheaply.
+                </div>
+            </div>
+        </div>
+        <div class="right-col">
+            <div class="table-section">
+                <div class="schedule-grid">
+                    <div class="grid-header">Week</div>
+                    <div class="grid-header">Commercial Action</div>
+                    <div class="grid-header">Channel Action</div>
+
+                    <div class="week-num">1</div>
+                    <div class="action-text">Finalize one-page offer, outreach toolkit, and target scorecard.</div>
+                    <div class="action-text">Complete asset and rights plan for Costco pilot.</div>
+
+                    <div class="week-num">2</div>
+                    <div class="action-text">Prepare ten personalized message drafts and referral asks.</div>
+                    <div class="action-text">Produce Costco rough cut.</div>
+
+                    <div class="week-num">3</div>
+                    <div class="action-text">Send only after outreach authorization; book qualified calls.</div>
+                    <div class="action-text">Produce IKEA rough cut.</div>
+
+                    <div class="week-num">4</div>
+                    <div class="action-text" style="border-bottom: none;">Deliver a paid diagnostic or refine qualification from response.</div>
+                    <div class="action-text" style="border-bottom: none;">Produce McDonald’s rough cut and trailer.</div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="/home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/final/the-profit-map-banner.png" alt="The Profit Map Banner">
+                <div class="overlay-labels">
+                    <div class="label-item">Proof <span class="label-arrow">→</span></div>
+                    <div class="label-item">Conversations <span class="label-arrow">→</span></div>
+                    <div class="label-item">Library</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # Delivery Manifest — The Profit Map
 
-**Package status:** Complete and ready for Git version control  
-**Prepared:** August 14, 2026  
+**Package status:** Complete and ready for Git version control
+**Prepared:** August 14, 2026
 **Scope:** Autonomous implementation package based on the supplied *Evergreen Faceless YouTube Channel Blueprint*.
 
 ## Deliverable Register
@@ -25,6 +25,10 @@
 | D-15 | Brand direction | `07_BRAND_ASSETS/BRAND_DIRECTION.md` | Complete | Defines identity, palette, type direction, thumbnail system, and asset requirements. |
 | D-16 | Generated visual launch assets | `07_BRAND_ASSETS/final/` and `07_BRAND_ASSETS/thumbnail_bases/` | Complete | Includes original avatar, text-safe banner background, and three pilot thumbnail bases. |
 | D-17 | Launch-asset guide and trailer script | `07_BRAND_ASSETS/LAUNCH_ASSET_GUIDE.md` and `07_BRAND_ASSETS/CHANNEL_TRAILER_SCRIPT.md` | Complete | Governs final overlays and supplies a recording-ready channel trailer. |
+| D-18 | Revenue operating model | `08_REVENUE_OPERATION/01_MODEL/REVENUE_OPERATING_MODEL.md` | Complete | Separates the near-term Evolve Human cash bridge from long-term owned-media monetization. |
+| D-19 | Commercial offer and outreach toolkit | `08_REVENUE_OPERATION/02_COMMERCIAL_ASSETS/` | Complete | Defines the authority-film offer, discovery process, pre-approved draft copy, and revenue deck content. |
+| D-20 | Revenue presentation | `08_REVENUE_OPERATION/02_COMMERCIAL_ASSETS/presentation/` | Complete | Ten-slide HTML presentation of the brand, launch assets, revenue logic, and commercial model. |
+| D-21 | Affiliate/sponsorship pipeline and disclosures | `08_REVENUE_OPERATION/03_PIPELINE/` and `08_REVENUE_OPERATION/04_COMPLIANCE/` | Complete | Contains verified program research, sponsor gates, an initial target queue, and disclosure scripts. |
 
 ## Validation Record
 
@@ -37,6 +41,8 @@
 | Public, financial, credentialed, or contractual steps executed without account-owner approval | Pass | None executed; boundaries documented. |
 | Sensitive credentials committed | Pass | None intentionally stored. |
 | Visual asset files are present and documented | Pass | Avatar, banner background, and three thumbnail bases are present in their labeled directories. |
+| Revenue documents include cited compliance and platform sources | Pass | YouTube, FTC, and official program pages are cited at point of use. |
+| Revenue presentation created | Pass | Ten-slide presentation completed and available through the presentation delivery link. |
 | Git commit and remote push | Pending | Performed after final repository validation. |
 
 ## Explicitly Pending External Steps
@@ -47,7 +53,8 @@
 | Channel creation and visual-asset production | Requires account access and final brand approval. |
 | Third-party licenses, narration, production, and contractor agreements | Require current commercial terms and payment authorization. |
 | Final renders, public uploads, and monetization application | Require content review, account access, and public-release approval. |
+| Affiliate applications, payout/tax details, sponsor contracts, and external outreach | Require owner identity, financial/tax details, agreement acceptance, and explicit send approval. |
 
 ## Practical First Move After Handoff
 
-Start with `04_PILOTS/TPM-001_COSTCO_MEMBERSHIP_ECONOMICS.md`. Convert its visual beat sheet into a licensed/owned asset list, complete the asset log, record narration, produce the rough cut, and run the quality/rights gate. The system is deliberately designed so the fifth step does not accidentally become “find a dramatic warehouse video from a stranger’s channel and hope for the best.”
+Start with `08_REVENUE_OPERATION/01_MODEL/REVENUE_OPERATING_MODEL.md` and the one-page `02_COMMERCIAL_ASSETS/BUSINESS_SYSTEMS_AUTHORITY_FILM_OFFER.md`. Qualify the first three conversations before attempting broad sponsor outreach, while the three-pilot buffer is produced under the existing rights gate. The system is deliberately designed so the fifth step does not accidentally become “find a dramatic warehouse video from a stranger’s channel and hope for the best.”

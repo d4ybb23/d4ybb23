@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+            position: relative;
+            overflow: hidden;
+        }
+        .content-wrapper {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            padding: 80px;
+        }
+        .text-column {
+            flex: 0 0 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 40px;
+            border-left: 8px solid #008080;
+        }
+        .accent-column {
+            flex: 0 0 35%;
+            background-color: #050505;
+            position: relative;
+        }
+        .accent-column::after {
+            content: '';
+            position: absolute;
+            top: 10%;
+            left: -20px;
+            width: 40px;
+            height: 40px;
+            background-color: #008080;
+        }
+        .accent-column::before {
+            content: '';
+            position: absolute;
+            bottom: 10%;
+            right: 40px;
+            width: 120px;
+            height: 8px;
+            background-color: #F0F4F8;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 100px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #333333;
+            margin-bottom: 48px;
+            line-height: 1.4;
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: #333333;
+            line-height: 1.6;
+            max-width: 85%;
+        }
+        .brand-label {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #008080;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="brand-label">Revenue Operations</div>
+        <div class="content-wrapper">
+            <div class="text-column">
+                <h1>The Profit Map</h1>
+                <h2>Building a business-documentary brand that earns now and compounds later.</h2>
+                <p>We reveal the hidden business logic behind the things people use—and use the same research and visual-explanation system to create sellable authority assets for serious B2B companies.</p>
+            </div>
+            <div class="accent-column"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+            flex-direction: column;
+            padding: 80px 80px 24px; /* keep top padding, reduce bottom padding */
+        }
+        .header-section {
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+            margin-bottom: 40px; /* reduced from 60px to pull columns up */
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+        }
+        .columns-container {
+            display: flex;
+            gap: 40px; /* slightly reduced gap */
+            flex: 1;
+        }
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .column-header {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #050505;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #050505;
+            padding-bottom: 12px; /* trimmed padding */
+            margin-bottom: 18px; /* trimmed margin */
+        }
+        .column-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 32px;
+            color: #008080;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .hub-section {
+            margin-top: 8px; /* reduced from 40px to pull hub up */
+            background-color: #050505;
+            padding: 20px; /* reduced from 32px */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: 8px solid #008080;
+        }
+        .hub-title {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #F0F4F8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+        .hub-flow {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        .flow-step {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #F4B942; /* Ledger Gold */
+        }
+        .flow-arrow {
+            color: #3BC1C6; /* Signal Teal */
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h1>The Revenue Logic: Two Speeds, One Production System</h1>
+            <h2>Do not wait for ad revenue to validate the machine</h2>
+        </div>
+
+        <div class="columns-container">
+            <div class="column">
+                <div class="column-header">Cash bridge — now</div>
+                <div class="column-title">Business Systems Authority Film</div>
+                <p>A client-owned, research-led documentary asset for companies with a real operating advantage that the market does not yet understand. This is Evolve Human work, not paid editorial coverage on The Profit Map.</p>
+            </div>
+
+            <div class="column">
+                <div class="column-header">Owned media — compounding</div>
+                <div class="column-title">The Profit Map long-form library</div>
+                <p>The Profit Map’s long-form library builds toward advertising, compliant sponsorships, carefully selected affiliates, and eventually owned research products.</p>
+            </div>
+        </div>
+
+        <div class="hub-section">
+            <div class="hub-title">Shared Production System Hub</div>
+            <div class="hub-flow">
+                <span class="flow-step">Research</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">Script</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">Visual Explanation</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">Distribution</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

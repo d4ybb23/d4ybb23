@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+        }
+        .text-section {
+            flex: 0 0 45%;
+            padding: 80px 60px 80px 80px; /* keep top padding for title consistency */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content-wrapper {
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 16px; /* reduced from 24 */
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+            margin-bottom: 16px; /* reduced from 32 */
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.6;
+            margin-bottom: 20px; /* reduced from 40 */
+        }
+        .labels-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px; /* reduced from 16 */
+        }
+        .label-item {
+            display: flex;
+            align-items: center;
+        }
+        .label-key {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #050505;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 80px;
+        }
+        .label-value {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+        }
+        .image-section {
+            flex: 0 0 55%;
+            background-color: #050505;
+            position: relative;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left center;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="text-section">
+            <div class="content-wrapper">
+                <h1>The Visual System Is Already Built</h1>
+                <h2>A distinct identity without a host dependency</h2>
+                <p>The visual system uses the map as a metaphor for causality: gold routes, teal nodes, midnight-ledger space, and original explanatory graphics. It is designed to be recognizable at thumbnail scale and flexible across company stories, infrastructure, and consumer economics.</p>
+                <div class="labels-container">
+                    <div class="label-item">
+                        <span class="label-key">Route</span>
+                        <span class="label-value">= mechanism</span>
+                    </div>
+                    <div class="label-item">
+                        <span class="label-key">Node</span>
+                        <span class="label-value">= decision point</span>
+                    </div>
+                    <div class="label-item">
+                        <span class="label-key">Space</span>
+                        <span class="label-value">= clarity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="/home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/final/the-profit-map-banner.png" alt="The Profit Map Banner">
+        </div>
+    </div>
+</body>
+</html>

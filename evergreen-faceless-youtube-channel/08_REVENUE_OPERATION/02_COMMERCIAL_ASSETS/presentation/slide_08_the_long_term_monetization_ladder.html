@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F0F4F8;
+            display: flex;
+            padding: 80px;
+        }
+        .title-column {
+            flex: 0 0 35%;
+            padding-left: 32px;
+            border-left: 8px solid #008080;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content-column {
+            flex: 0 0 65%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 60px;
+            justify-content: center;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 56px;
+            color: #050505;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            color: #008080;
+            line-height: 1.4;
+        }
+        .ladder-grid {
+            display: grid;
+            grid-template-columns: 80px 1fr 1.5fr;
+            gap: 16px 24px;
+            margin-bottom: 32px;
+        }
+        .grid-header {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #050505;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+        .stage-num {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #008080;
+            padding-top: 4px;
+        }
+        .stage-mech {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #050505;
+            padding-top: 8px;
+        }
+        .stage-cond {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: #333333;
+            line-height: 1.5;
+            padding-top: 8px;
+        }
+        .compliance-note {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #555555;
+            line-height: 1.5;
+            padding-top: 16px;
+            border-top: 1px solid #cccccc;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="title-column">
+            <h1>The Long-Term Monetization Ladder</h1>
+            <h2>Build the public asset without contaminating the editorial promise</h2>
+        </div>
+        <div class="content-column">
+            <div class="ladder-grid">
+                <div class="grid-header">Stage</div>
+                <div class="grid-header">Mechanism</div>
+                <div class="grid-header">Entry Condition</div>
+
+                <div class="stage-num">0</div>
+                <div class="stage-mech">Authority-film services</div>
+                <div class="stage-cond">Production capability and a qualified client need.</div>
+
+                <div class="stage-num">1</div>
+                <div class="stage-mech">Relevant affiliates</div>
+                <div class="stage-cond">Honest tool fit and clear material-connection disclosures.</div>
+
+                <div class="stage-num">2</div>
+                <div class="stage-mech">Sponsor slots</div>
+                <div class="stage-cond">Audience evidence, category fit, and strict editorial independence.</div>
+
+                <div class="stage-num">3</div>
+                <div class="stage-mech">YouTube Partner Program</div>
+                <div class="stage-cond">1,000 subscribers plus 4,000 qualified public watch hours in the last 12 months, or 10 million qualified Shorts views in 90 days; channel review follows. [1]</div>
+
+                <div class="stage-num">4</div>
+                <div class="stage-mech">Owned IP</div>
+                <div class="stage-cond">Repeated demand for briefings, research products, memberships, or workshops.</div>
+            </div>
+            <div class="compliance-note">
+                <strong>Compliance note:</strong> YouTube requires original and authentic content; it may review the channel’s theme, most-viewed/newest videos, metadata, and About section. [2]
+            </div>
+        </div>
+    </div>
+</body>
+</html>

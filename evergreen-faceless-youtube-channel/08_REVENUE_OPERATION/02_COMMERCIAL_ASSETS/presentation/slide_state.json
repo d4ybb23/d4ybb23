@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "title": "The Profit Map",
+    "created": 1786748406.358,
+    "last_updated": 1786748725.046,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "slide_01_the_profit_map",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_02_the_brand_promise",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_03_the_visual_system_is_already_built",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_04_the_first_three_episodes_are_packaged",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_05_the_revenue_logic_two_speeds_one_production_system",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_06_the_cash_bridge_offer",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_07_early_revenue_is_a_sales_problem_not_a_dashboard_problem",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_08_the_long_term_monetization_ladder",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "slide_09_trust_is_the_moat",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "slide_10_the_next_30_days",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_01_the_profit_map",
+      "title": "The Profit Map",
+      "summary": "Introduce the brand and its dual purpose: revealing hidden business logic and creating sellable authority assets."
+    },
+    {
+      "id": "slide_02_the_brand_promise",
+      "title": "The Brand Promise",
+      "summary": "Define the channel's positioning, target audience, format, and core editorial rule.",
+      "image_plan": "/home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/final/the-profit-map-avatar.png - Slide 2 brand promise visual: single route diagram showing familiar object to hidden system to viewer insight"
+    },
+    {
+      "id": "slide_03_the_visual_system_is_already_built",
+      "title": "The Visual System Is Already Built",
+      "summary": "Explain the visual metaphor (map, routes, nodes) and its flexibility across different business stories.",
+      "image_plan": "/home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/final/the-profit-map-banner.png - Slide 3 visual system: avatar and wide banner with route/node/space labels"
+    },
+    {
+      "id": "slide_04_the_first_three_episodes_are_packaged",
+      "title": "The First Three Episodes Are Packaged",
+      "summary": "Present the first three launch episodes (Costco, IKEA, McDonald's) and their core business questions and takeaways.",
+      "image_plan": "/home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/thumbnail_bases/tpm-001-costco-membership-thumbnail-base.png; /home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/thumbnail_bases/tpm-002-ikea-flatpack-thumbnail-base.png; /home/ubuntu/d4ybb23/evergreen-faceless-youtube-channel/07_BRAND_ASSETS/thumbnail_bases/tpm-003-mcdonalds-system-thumbnail-base.png - Slide 4: Three equal thumbnail cards for Costco, IKEA, and McDonald's episodes"
+    },
+    {
+      "id": "slide_05_the_revenue_logic_two_speeds_one_production_system",
+      "title": "The Revenue Logic: Two Speeds, One Production System",
+      "summary": "Contrast the near-term cash bridge (B2B services) with the long-term owned-media compounding model."
+    },
+    {
+      "id": "slide_06_the_cash_bridge_offer",
+      "title": "The Cash-Bridge Offer",
+      "summary": "Detail the three service tiers (Diagnostic, Sprint, System) and their deliverables and pricing."
+    },
+    {
+      "id": "slide_07_early_revenue_is_a_sales_problem_not_a_dashboard_problem",
+      "title": "Early Revenue Is a Sales Problem, Not a Dashboard Problem",
+      "summary": "Provide transparent planning arithmetic for four initial cash-bridge sales scenarios."
+    },
+    {
+      "id": "slide_08_the_long_term_monetization_ladder",
+      "title": "The Long-Term Monetization Ladder",
+      "summary": "Outline the five stages of channel monetization, from services to the YouTube Partner Program and owned IP."
+    },
+    {
+      "id": "slide_09_trust_is_the_moat",
+      "title": "Trust Is the Moat",
+      "summary": "Establish the commercial compliance rules regarding editorial independence, disclosures, and record-keeping."
+    },
+    {
+      "id": "slide_10_the_next_30_days",
+      "title": "The Next 30 Days",
+      "summary": "Provide a four-week action plan for both commercial outreach and channel production."
+    }
+  ]
+}
