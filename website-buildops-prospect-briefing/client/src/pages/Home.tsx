@@ -108,10 +108,10 @@ export default function Home() {
   };
 
   return (
-    <div className="site-shell">
+    <div className="site-shell brief-flow">
       <header className="topbar">
         <a className="wordmark" href="#brief" aria-label="Return to briefing start">
-          <img src="/manus-storage/evolve-human-field-note-mark_172cc064.png" alt="" />
+          <span className="brand-route-mark" aria-hidden="true"><i /><i /><i /><i /></span>
           <span>EVOLVE HUMAN</span>
           <b>/</b>
           <em>FIELD NOTE</em>
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="system" data-section="System" className="system-section section-anchor">
+          <section id="system" data-section="System" className="system-section section-anchor flow-system">
             <div className="section-intro">
               <SectionLabel number="02">Observed system</SectionLabel>
               <div>
@@ -197,7 +197,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="route-section" aria-labelledby="route-heading">
+          <section className="route-section flow-route" aria-labelledby="route-heading">
             <div className="route-heading-row">
               <div>
                 <p className="kicker">THE EXPLANATION MAP</p>
@@ -231,7 +231,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="evidence" data-section="Evidence" className="evidence-section section-anchor">
+          <section id="evidence" data-section="Evidence" className="evidence-section section-anchor flow-evidence">
             <div className="section-intro compact">
               <SectionLabel number="03">Evidence ledger</SectionLabel>
               <div>
@@ -261,7 +261,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="film-angle" data-section="Film angle" className="film-section section-anchor">
+          <section id="film-angle" data-section="Film angle" className="film-section section-anchor flow-film">
             <div className="film-grid">
               <div className="film-copy">
                 <SectionLabel number="04">Authority-film angle</SectionLabel>
@@ -310,9 +310,9 @@ export default function Home() {
           </section>
 
           <footer className="site-footer">
-            <div><Layers3 size={17} /><span>EVOLVE HUMAN / FIELD NOTE 01</span></div>
+            <div><span className="brand-route-mark footer-mark" aria-hidden="true"><i /><i /><i /><i /></span><span>EVOLVE HUMAN / FIELD NOTE 01</span></div>
             <p>Public-source research. No affiliation represented.</p>
-            <a href="#brief">Back to top <ArrowUpRight size={13} /></a>
+            <div className="note-links"><a href="/pirros">Pirros</a><a href="/epsilon3">Epsilon3</a><a href="#brief">Back to top <ArrowUpRight size={13} /></a></div>
           </footer>
         </main>
       </div>

@@ -83,3 +83,6 @@ Use a small custom text lockup: **EVOLVE HUMAN / FIELD NOTE** separated by a squ
 - The site is an **unsolicited independent prospect briefing** prepared by Evolve Human. It must never imply BuildOps sponsorship, approval, partnership, or client status.
 - Public-source observations, the authority-film hypothesis, and commercial next steps must remain visually and verbally distinct.
 - Use original generated visuals and abstract system diagrams only; do not use BuildOps’ marks, customer logos, product screenshots, or jobsite imagery without an explicit right to do so.
+- Each Field Note preserves the dossier structure but reshapes the route-line motif and visual rhythm around the prospect’s actual operating mechanism: flow for BuildOps, decision memory for Pirros, and procedure control for Epsilon3.
+- The four-node route mark is the compact authorship signature. It recurs in headers, footers, stamps, route maps, and briefing transitions.
+- The taxonomy is intentional and stable: blue-backed markers signal **observed evidence**; vermilion dashed markers signal a **proposed narrative lens**; the boundary section signals what is not authorized, represented, or promised.
